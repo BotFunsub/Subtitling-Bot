@@ -25,81 +25,73 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://botfansub.tech)
+
 
 
 工作流程:
 
 * 输入视频/音频（mp4,mp3,wmbv......),选择模型，排队等待，下载翻译后的字幕(.srt).
 * 语音转文字->文本翻译->添加每句台词的时间轴上位置
-* AI用在哪里？语音转文字模型，翻译模型
-* 弱监督语音转文字模型自带一定的翻译能力，在您提交的一些参数条件下将无需使用翻译模型
+* 两个模型：语音转文字模型，翻译模型
+* 弱监督语音转文字模型自带一定的翻译能力，在一些情况下将无需使用翻译模型
 
 开源计划:
-
-我正在开发离线版本（linux/Windows）及命令行工具，这个仓库将用来上传开源的离线版本.
+正在开发离线版本（linux/Windows）及命令行工具，这个仓库将用来上传开源的离线版本.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Getting Started
+<!--Features -->
+## Features
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+* Supports translation and recognition of over forty languages, we perform particularly well in niche languages!
+* No need to install, generates online, without the hassle of environment configuration.
+* Free and no registration required, we will distribute points based on server usage.
+* Supports multiple models, free to choose between computing power and performance.
 
-### Featuress
+<br />
 
 * 支持超四十种语言的翻译及识别，我们在小众语言表现尤其出色！
 * 无需安装，在线生成，没有环境配置的烦恼.
 * 免费且无需注册，我们会根据服务器使用情况发放积分.
 * 支持多种模型，在算力和效果之间自由选择.
 
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Web
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+We have a very good UI for web users, just follow the website, when you get the generated srt files, you have three options:
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+* You can use the srt file with video websites like Youtube, BiliBili...
+* Use with media player like Windows Media Player, VLC Media Player, choose subtitles->your srt file.
+* Want a video with embeded subtitles? instructions:
 
+#### Use Ffmpeg:
+1. Ffmpeg installation: <a href="https://ffmpeg.org"><strong>https://ffmpeg.org/</strong></a>
+2. Use this command, remember replace input.mp4, input.srt and output.mp4:
+  ```sh
+   ffmpeg -i input.mp4 -vf "subtitles=input.srt" output.mp4
+  ```    
+#### Use web service
+
+You can just google "embeded srt to video"
+
+#### Why we do not offer to download the video with embeded generated subtitles?
+
+It is currently free tool, and we cannot afford a server or cloud service for storing handreds of videos for a long period.
+
+
+### Api
+
+See our website,switch to the third option in the left side menu:
+
+<a href="https://botfansub.tech"><strong>API »</strong></a>
+<a href="https://botfansub.tech"><strong>中文版 »</strong></a>
 
 
 <!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
