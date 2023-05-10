@@ -4,59 +4,56 @@
 <br />
 <div align="center"> 
     <img src="images/botLogo.png" alt="Logo" width="80" height="80">
-  <h3 align="center">Tool for transcribing & translating and subtitling videos
+  <h3 align="center">Subtitling Bot 
   </h3>
-
+  <h3 align="center">
+      机器人字幕组
+  </h3>
   <p align="center">
-    An ai tool to auto translating&subtitling your videos!
-    一个支持四十种语言的在线字幕生成翻译工具
+        An ai tool to auto translating&subtitling your videos!
+       <br />
+        最好的支持四十种语言的在线字幕生成翻译工具
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://botfansub.tech"><strong>Explore the web »</strong></a>
+        <a href="https://botfansub.tech/zh"><strong>网页版 »</strong></a>
     <br />
     <br />
   </p>
 </div>
+
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
+
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-How does it work?:
+
+工作流程:
+
 * 输入视频/音频（mp4,mp3,wmbv......),选择模型，排队等待，下载翻译后的字幕(.srt).
 * 语音转文字->文本翻译->添加每句台词的时间轴上位置
 * AI用在哪里？语音转文字模型，翻译模型
 * 弱监督语音转文字模型自带一定的翻译能力，在您提交的一些参数条件下将无需使用翻译模型
-
-最新的模型免费且拥有非常好的一致性和准确性!
 
 开源计划:
 
 我正在开发离线版本（linux/Windows）及命令行工具，这个仓库将用来上传开源的离线版本.
 
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-  
 ### Featuress
 
 * 支持超四十种语言的翻译及识别，我们在小众语言表现尤其出色！
 * 无需安装，在线生成，没有环境配置的烦恼.
 * 免费且无需注册，我们会根据服务器使用情况发放积分.
 * 支持多种模型，在算力和效果之间自由选择.
+
 
 ### Installation
 
@@ -87,6 +84,8 @@ Use this space to show useful examples of how a project can be used. Additional 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 <!-- CONTRIBUTING -->
 ## Contributing
